@@ -185,8 +185,8 @@ const BookmarkModal = () => {
                 <FormItem>
                   <FormLabel>Folder</FormLabel>
                   <Select
-                    onValueChange={(value) => field.onChange(Number(value) || null)}
-                    defaultValue={field.value?.toString()}
+                    onValueChange={(value) => value === "none" ? field.onChange(null) : field.onChange(Number(value))}
+                    defaultValue={field.value ? field.value.toString() : "none"}
                   >
                     <FormControl>
                       <SelectTrigger>
@@ -194,7 +194,7 @@ const BookmarkModal = () => {
                       </SelectTrigger>
                     </FormControl>
                     <SelectContent>
-                      <SelectItem value="">None</SelectItem>
+                      <SelectItem value="none">None</SelectItem>
                       {folders?.map((folder) => (
                         <SelectItem key={folder.id} value={folder.id.toString()}>
                           {folder.name}
