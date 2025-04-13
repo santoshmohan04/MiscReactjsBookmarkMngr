@@ -1,4 +1,6 @@
-import { type User, type InsertUser, type Folder, type InsertFolder, type Bookmark, type InsertBookmark, type BookmarkWithFolder } from "@shared/schema";
+import { type User, type InsertUser, type Folder, type InsertFolder, type Bookmark, type InsertBookmark, type BookmarkWithFolder, users, folders, bookmarks } from "@shared/schema";
+import { db } from "./db";
+import { eq, ilike, or, sql, count } from "drizzle-orm";
 
 export interface IStorage {
   // User methods
@@ -23,152 +25,186 @@ export interface IStorage {
   searchBookmarks(searchTerm: string): Promise<BookmarkWithFolder[]>;
 }
 
-export class MemStorage implements IStorage {
-  private users: Map<number, User>;
-  private folders: Map<number, Folder>;
-  private bookmarks: Map<number, Bookmark>;
-  private userId: number;
-  private folderId: number;
-  private bookmarkId: number;
-
-  constructor() {
-    this.users = new Map();
-    this.folders = new Map();
-    this.bookmarks = new Map();
-    this.userId = 1;
-    this.folderId = 1;
-    this.bookmarkId = 1;
-    
-    // Add some initial folders
-    this.createFolder({ name: "Development" });
-    this.createFolder({ name: "Learning" });
-    this.createFolder({ name: "Work" });
-  }
-
+export class DatabaseStorage implements IStorage {
   // User methods
   async getUser(id: number): Promise<User | undefined> {
-    return this.users.get(id);
+    const result = await db.select().from(users).where(eq(users.id, id));
+    return result[0];
   }
 
   async getUserByUsername(username: string): Promise<User | undefined> {
-    return Array.from(this.users.values()).find(
-      (user) => user.username === username
-    );
+    const result = await db.select().from(users).where(eq(users.username, username));
+    return result[0];
   }
 
   async createUser(insertUser: InsertUser): Promise<User> {
-    const id = this.userId++;
-    const user: User = { ...insertUser, id };
-    this.users.set(id, user);
-    return user;
+    const result = await db.insert(users).values(insertUser).returning();
+    return result[0];
   }
 
   // Folder methods
   async getAllFolders(): Promise<Folder[]> {
-    return Array.from(this.folders.values());
+    // Count bookmarks in each folder for UI display
+    const result = await db
+      .select({
+        id: folders.id,
+        name: folders.name,
+        bookmarkCount: sql<number>`count(${bookmarks.id})`.mapWith(Number),
+      })
+      .from(folders)
+      .leftJoin(bookmarks, eq(folders.id, bookmarks.folderId))
+      .groupBy(folders.id, folders.name);
+    
+    return result;
   }
 
   async getFolderById(id: number): Promise<Folder | undefined> {
-    return this.folders.get(id);
+    const result = await db.select().from(folders).where(eq(folders.id, id));
+    return result[0];
   }
 
   async createFolder(insertFolder: InsertFolder): Promise<Folder> {
-    const id = this.folderId++;
-    const folder: Folder = { ...insertFolder, id };
-    this.folders.set(id, folder);
-    return folder;
+    const result = await db.insert(folders).values(insertFolder).returning();
+    return { ...result[0], bookmarkCount: 0 };
   }
 
   async updateFolder(id: number, insertFolder: InsertFolder): Promise<Folder | undefined> {
-    const folder = this.folders.get(id);
-    if (!folder) return undefined;
+    const result = await db
+      .update(folders)
+      .set(insertFolder)
+      .where(eq(folders.id, id))
+      .returning();
     
-    const updatedFolder = { ...folder, ...insertFolder };
-    this.folders.set(id, updatedFolder);
-    return updatedFolder;
+    return result[0];
   }
 
   async deleteFolder(id: number): Promise<boolean> {
-    // Delete all bookmarks in this folder
-    const bookmarksToDelete = Array.from(this.bookmarks.values())
-      .filter(bookmark => bookmark.folderId === id);
+    // Note: We don't need to delete bookmarks explicitly because
+    // we have onDelete: 'cascade' in our schema
+    const result = await db
+      .delete(folders)
+      .where(eq(folders.id, id))
+      .returning();
     
-    for (const bookmark of bookmarksToDelete) {
-      this.bookmarks.delete(bookmark.id);
-    }
-    
-    return this.folders.delete(id);
+    return result.length > 0;
   }
 
   // Bookmark methods
   async getAllBookmarks(): Promise<BookmarkWithFolder[]> {
-    return Array.from(this.bookmarks.values()).map(bookmark => {
-      const folder = bookmark.folderId ? this.folders.get(bookmark.folderId) : null;
-      return {
-        ...bookmark,
-        folderName: folder ? folder.name : null
-      };
-    });
+    const result = await db
+      .select({
+        id: bookmarks.id,
+        title: bookmarks.title,
+        url: bookmarks.url,
+        folderId: bookmarks.folderId,
+        favicon: bookmarks.favicon,
+        folderName: folders.name,
+      })
+      .from(bookmarks)
+      .leftJoin(folders, eq(bookmarks.folderId, folders.id));
+    
+    return result;
   }
 
   async getBookmarksByFolderId(folderId: number): Promise<BookmarkWithFolder[]> {
-    return Array.from(this.bookmarks.values())
-      .filter(bookmark => bookmark.folderId === folderId)
-      .map(bookmark => {
-        const folder = this.folders.get(folderId);
-        return {
-          ...bookmark,
-          folderName: folder ? folder.name : null
-        };
-      });
+    const result = await db
+      .select({
+        id: bookmarks.id,
+        title: bookmarks.title,
+        url: bookmarks.url,
+        folderId: bookmarks.folderId,
+        favicon: bookmarks.favicon,
+        folderName: folders.name,
+      })
+      .from(bookmarks)
+      .leftJoin(folders, eq(bookmarks.folderId, folders.id))
+      .where(eq(bookmarks.folderId, folderId));
+    
+    return result;
   }
 
   async getBookmarkById(id: number): Promise<BookmarkWithFolder | undefined> {
-    const bookmark = this.bookmarks.get(id);
-    if (!bookmark) return undefined;
+    const result = await db
+      .select({
+        id: bookmarks.id,
+        title: bookmarks.title,
+        url: bookmarks.url,
+        folderId: bookmarks.folderId,
+        favicon: bookmarks.favicon,
+        folderName: folders.name,
+      })
+      .from(bookmarks)
+      .leftJoin(folders, eq(bookmarks.folderId, folders.id))
+      .where(eq(bookmarks.id, id));
     
-    const folder = bookmark.folderId ? this.folders.get(bookmark.folderId) : null;
-    return {
-      ...bookmark,
-      folderName: folder ? folder.name : null
-    };
+    return result[0];
   }
 
   async createBookmark(insertBookmark: InsertBookmark): Promise<Bookmark> {
-    const id = this.bookmarkId++;
-    const bookmark: Bookmark = { ...insertBookmark, id };
-    this.bookmarks.set(id, bookmark);
-    return bookmark;
+    const result = await db
+      .insert(bookmarks)
+      .values(insertBookmark)
+      .returning();
+    
+    return result[0];
   }
 
   async updateBookmark(id: number, insertBookmark: InsertBookmark): Promise<Bookmark | undefined> {
-    const bookmark = this.bookmarks.get(id);
-    if (!bookmark) return undefined;
+    const result = await db
+      .update(bookmarks)
+      .set(insertBookmark)
+      .where(eq(bookmarks.id, id))
+      .returning();
     
-    const updatedBookmark = { ...bookmark, ...insertBookmark };
-    this.bookmarks.set(id, updatedBookmark);
-    return updatedBookmark;
+    return result[0];
   }
 
   async deleteBookmark(id: number): Promise<boolean> {
-    return this.bookmarks.delete(id);
+    const result = await db
+      .delete(bookmarks)
+      .where(eq(bookmarks.id, id))
+      .returning();
+    
+    return result.length > 0;
   }
 
   async searchBookmarks(searchTerm: string): Promise<BookmarkWithFolder[]> {
-    const term = searchTerm.toLowerCase();
-    return Array.from(this.bookmarks.values())
-      .filter(bookmark => 
-        bookmark.title.toLowerCase().includes(term) || 
-        bookmark.url.toLowerCase().includes(term)
-      )
-      .map(bookmark => {
-        const folder = bookmark.folderId ? this.folders.get(bookmark.folderId) : null;
-        return {
-          ...bookmark,
-          folderName: folder ? folder.name : null
-        };
-      });
+    const result = await db
+      .select({
+        id: bookmarks.id,
+        title: bookmarks.title,
+        url: bookmarks.url,
+        folderId: bookmarks.folderId,
+        favicon: bookmarks.favicon,
+        folderName: folders.name,
+      })
+      .from(bookmarks)
+      .leftJoin(folders, eq(bookmarks.folderId, folders.id))
+      .where(
+        or(
+          ilike(bookmarks.title, `%${searchTerm}%`),
+          ilike(bookmarks.url, `%${searchTerm}%`)
+        )
+      );
+    
+    return result;
   }
 }
 
-export const storage = new MemStorage();
+// Initialize database with some folders if none exist
+async function initializeDatabase() {
+  const existingFolders = await db.select().from(folders);
+  
+  if (existingFolders.length === 0) {
+    await db.insert(folders).values([
+      { name: "Development" },
+      { name: "Learning" },
+      { name: "Work" }
+    ]);
+  }
+}
+
+// Initialize the database with default data
+initializeDatabase().catch(console.error);
+
+export const storage = new DatabaseStorage();

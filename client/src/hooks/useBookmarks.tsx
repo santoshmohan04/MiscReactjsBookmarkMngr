@@ -90,14 +90,19 @@ export const BookmarkProvider = ({ children }: BookmarkProviderProps) => {
     data: bookmarks, 
     isLoading,
     refetch: refetchBookmarks
-  } = useQuery({
+  } = useQuery<BookmarkWithFolder[]>({
     queryKey: getQueryKey(),
     enabled: true,
+    queryFn: async () => {
+      const response = await fetch(getBookmarksUrl());
+      const data = await response.json();
+      return data;
+    },
     refetchOnWindowFocus: false
   });
   
   // Computed state
-  const filteredBookmarks = bookmarks;
+  const filteredBookmarks = bookmarks || [];
   
   // Mutations
   const createMutation = useMutation({
