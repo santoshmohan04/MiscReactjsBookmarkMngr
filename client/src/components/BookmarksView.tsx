@@ -32,8 +32,18 @@ const BookmarksView = () => {
             ? `Search results for: ${searchQuery}` 
             : folderName}
         </h2>
-        <div className="text-gray-500 text-sm">
-          {filteredBookmarks?.length || 0} bookmarks
+        <div className="flex items-center gap-3">
+          <div className="text-gray-500 text-sm">
+            {filteredBookmarks?.length || 0} bookmarks
+          </div>
+          <Button 
+            onClick={() => setShowAddBookmarkModal(true)}
+            className="flex items-center"
+            variant="default"
+            size="sm"
+          >
+            <i className="bi bi-plus-lg mr-1"></i> Add Bookmark
+          </Button>
         </div>
       </div>
       

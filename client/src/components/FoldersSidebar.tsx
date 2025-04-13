@@ -43,13 +43,14 @@ const FoldersSidebar = () => {
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-lg font-semibold">Folders</h2>
         <Button 
-          variant="ghost" 
-          size="icon" 
-          className="text-green-600 hover:text-green-700 hover:bg-green-50"
+          variant="default" 
+          size="sm" 
+          className="flex items-center"
           title="Add Folder"
           onClick={() => setShowAddFolderModal(true)}
         >
-          <i className="bi bi-folder-plus"></i>
+          <i className="bi bi-folder-plus mr-1"></i>
+          <span>Add Folder</span>
         </Button>
       </div>
       
