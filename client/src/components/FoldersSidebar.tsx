@@ -73,8 +73,8 @@ const FoldersSidebar = () => {
               onClick={() => setActiveFolderId(null)}
             >
               <i className="bi bi-collection mr-2"></i>
-              <span className="flex-grow">All Bookmarks</span>
-              <span className="px-2 py-1 text-xs bg-primary bg-opacity-20 text-primary rounded-full">
+              <span className="flex-grow truncate">All Bookmarks</span>
+              <span className="ml-1 px-2 py-1 text-xs bg-primary bg-opacity-20 text-primary rounded-full min-w-[24px] text-center">
                 {bookmarks?.length || 0}
               </span>
             </div>
@@ -94,30 +94,30 @@ const FoldersSidebar = () => {
                   onClick={() => setActiveFolderId(folder.id)}
                 >
                   <i className="bi bi-folder mr-2"></i>
-                  <span className="flex-grow">{folder.name}</span>
-                  <span className="px-2 py-1 text-xs bg-gray-200 text-gray-700 rounded-full">
+                  <span className="flex-grow truncate">{folder.name}</span>
+                  <span className="ml-1 px-2 py-1 text-xs bg-gray-200 text-gray-700 rounded-full min-w-[24px] text-center">
                     {bookmarkCount}
                   </span>
                   
                   {/* Actions */}
-                  <div className="hidden group-hover:flex items-center space-x-1 ml-2">
+                  <div className="hidden group-hover:flex items-center space-x-1 ml-1 shrink-0">
                     <Button
                       variant="ghost"
                       size="icon"
-                      className="h-7 w-7 text-gray-500 hover:text-primary"
+                      className="h-6 w-6 text-gray-500 hover:text-primary p-0"
                       onClick={(e) => handleEditClick(e, folder.id)}
                       title="Edit Folder"
                     >
-                      <i className="bi bi-pencil-square text-sm"></i>
+                      <i className="bi bi-pencil-square text-xs"></i>
                     </Button>
                     <Button
                       variant="ghost"
                       size="icon"
-                      className="h-7 w-7 text-gray-500 hover:text-red-500"
+                      className="h-6 w-6 text-gray-500 hover:text-red-500 p-0"
                       onClick={(e) => handleDeleteClick(e, folder.id)}
                       title="Delete Folder"
                     >
-                      <i className="bi bi-trash text-sm"></i>
+                      <i className="bi bi-trash text-xs"></i>
                     </Button>
                   </div>
                 </div>
