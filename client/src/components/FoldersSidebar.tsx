@@ -63,7 +63,7 @@ const FoldersSidebar = () => {
       ) : (
         <ul className="space-y-2">
           {/* All Bookmarks item */}
-          <li>
+          {/* <li>
             <div
               className={`flex items-center p-2 rounded-md cursor-pointer ${
                 activeFolderId === null 
@@ -78,7 +78,7 @@ const FoldersSidebar = () => {
                 {bookmarks?.length || 0}
               </span>
             </div>
-          </li>
+          </li> */}
           
           {/* Folder items */}
           {folders?.map((folder) => {
