@@ -191,6 +191,11 @@ export const BookmarkProvider = ({ children }: BookmarkProviderProps) => {
     refetchBookmarks();
   }, [refetchBookmarks]);
   
+  // Force refetch whenever search query changes
+  useEffect(() => {
+    refetchBookmarks();
+  }, [searchQuery, refetchBookmarks]);
+  
   return (
     <BookmarkContext.Provider
       value={{

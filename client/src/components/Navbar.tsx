@@ -10,17 +10,36 @@ const Navbar = () => {
   const { toast } = useToast();
   const { setSearchQuery, view, setView, setShowAddBookmarkModal } = useBookmarks();
 
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (searchTerm.trim()) {
-      setSearchQuery(searchTerm);
-      toast({
-        title: "Searching bookmarks",
-        description: `Results for "${searchTerm}"`,
-      });
+  // Handle input changes for instant search
+  const handleSearchInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    setSearchTerm(value);
+    
+    // Set the search query with a small debounce 
+    if (value.trim()) {
+      setSearchQuery(value.trim());
     } else {
+      // When the search box is cleared, reset search query to show all bookmarks
       setSearchQuery("");
     }
+  };
+  
+  // Form submission is now optional as search is instant
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    // Show toast only when form is submitted through Enter key or button click
+    if (searchTerm.trim()) {
+      toast({
+        title: "Searching bookmarks",
+        description: `Results for "${searchTerm.trim()}"`,
+      });
+    }
+  };
+  
+  // Clear search function
+  const clearSearch = () => {
+    setSearchTerm("");
+    setSearchQuery("");
   };
 
   return (
@@ -37,13 +56,23 @@ const Navbar = () => {
           <Input
             type="search"
             placeholder="Search bookmarks..."
-            className="w-full pr-10 text-black"
+            className="w-full pr-16 text-black"
             value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
+            onChange={handleSearchInputChange}
           />
+          {searchTerm && (
+            <button
+              type="button"
+              onClick={clearSearch}
+              className="absolute right-9 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
+              aria-label="Clear search"
+            >
+              <i className="bi bi-x-circle"></i>
+            </button>
+          )}
           <button
             type="submit"
-            className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400"
+            className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
             aria-label="Search"
           >
             <i className="bi bi-search"></i>
