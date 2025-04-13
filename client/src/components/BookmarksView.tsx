@@ -73,18 +73,18 @@ const BookmarksView = () => {
       )}
       
       {/* List View */}
-      {!isLoading && filteredBookmarks?.length > 0 && view === "list" && (
+      {!isLoading && (filteredBookmarks || []).length > 0 && view === "list" && (
         <div className="divide-y">
-          {filteredBookmarks.map((bookmark) => (
+          {(filteredBookmarks || []).map((bookmark) => (
             <BookmarkListItem key={bookmark.id} bookmark={bookmark} />
           ))}
         </div>
       )}
       
       {/* Grid View */}
-      {!isLoading && filteredBookmarks?.length > 0 && view === "grid" && (
+      {!isLoading && (filteredBookmarks || []).length > 0 && view === "grid" && (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filteredBookmarks.map((bookmark) => (
+          {(filteredBookmarks || []).map((bookmark) => (
             <BookmarkCard key={bookmark.id} bookmark={bookmark} />
           ))}
         </div>

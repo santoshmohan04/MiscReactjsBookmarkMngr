@@ -187,7 +187,9 @@ export const BookmarkProvider = ({ children }: BookmarkProviderProps) => {
   // Refetch bookmarks when folder or search changes
   const fetchBookmarks = useCallback((folderId: number | null) => {
     setActiveFolderId(folderId);
-  }, []);
+    // Force refresh if needed
+    refetchBookmarks();
+  }, [refetchBookmarks]);
   
   return (
     <BookmarkContext.Provider

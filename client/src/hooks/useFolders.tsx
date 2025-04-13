@@ -45,8 +45,13 @@ export const FolderProvider = ({ children }: FolderProviderProps) => {
   const [deletingFolder, setDeletingFolder] = useState<Folder | null>(null);
   
   // Queries
-  const { data: folders, isLoading } = useQuery({
+  const { data: folders, isLoading } = useQuery<Folder[]>({
     queryKey: ['/api/folders'],
+    queryFn: async () => {
+      const response = await fetch('/api/folders');
+      const data = await response.json();
+      return data;
+    },
     refetchOnWindowFocus: false
   });
   

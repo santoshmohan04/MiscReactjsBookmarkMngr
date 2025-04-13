@@ -65,6 +65,7 @@ export class DatabaseStorage implements IStorage {
 
   async createFolder(insertFolder: InsertFolder): Promise<Folder> {
     const result = await db.insert(folders).values(insertFolder).returning();
+    // Add bookmarkCount for consistency with the Folder type
     return { ...result[0], bookmarkCount: 0 };
   }
 

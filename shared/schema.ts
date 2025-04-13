@@ -38,7 +38,9 @@ export type InsertUser = z.infer<typeof insertUserSchema>;
 export type User = typeof users.$inferSelect;
 
 export type InsertFolder = z.infer<typeof insertFolderSchema>;
-export type Folder = typeof folders.$inferSelect;
+export type Folder = typeof folders.$inferSelect & {
+  bookmarkCount?: number;
+};
 
 export type InsertBookmark = z.infer<typeof insertBookmarkSchema>;
 export type Bookmark = typeof bookmarks.$inferSelect;
