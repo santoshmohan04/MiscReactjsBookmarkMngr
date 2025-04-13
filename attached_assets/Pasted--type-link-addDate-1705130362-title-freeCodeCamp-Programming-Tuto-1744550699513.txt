@@ -1,0 +1,246 @@
+[
+  {
+    "type": "link",
+    "addDate": 1705130362,
+    "title": "freeCodeCamp Programming Tutorials: Python, JavaScript, Git &amp; More",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACF0lEQVQ4jZWSv0sbYRjH3/c5j0jIhQiSX0ehIRUu9HKkDgkUUoRiF8GhFKSBDMFaUuogQvCfEPcIcSo0i0IXR7dOGTwhN1QxJeelR66NZwdLcrl7nw6XBkE6+EwP3+/n4YHv89BgME0eUvAgejKAiDw/EwgEpioi3oVmZwM8z/siIKIghGq1D4qS8TzmE9Ho/JTwPJbNSrVaVRBCiAiU0kplbTx2VVXjuMnCarW8vv6WUkoI4ThQVc1xxpXKGqUUZFlSlEyj8Xk0cnx6bi6yvPxie/u9JD1hjBFCRqPxwUFTUTKyLEGxmNe0c8saAFBCCGNsZeVlNptJJmO53FPX9QghANSyBpp2XiwWQBTjut4jBH06nX68tfXu6qqnqlo8Hk2lHv0LAHW9J4ox8JdOIgPY2CgtLKR2d+uqqm1uVnZ2PnIcNwUYY2CalijGCaGIGA4LS0vPT06+Hh0dh0LBRCK6uJj1wyGEimLcNC1otc5kWYpEBETiuu5gYB8eHtv2Tb3+qdFoXl52h8MhISQSEWRZarXOONv28vlcMhk/PW07jnN7+8cwTMMwu13DMH602986nS6ltFx+EwjwzeYXjtLwxcX3Uul1v//TMMxOR7ft367rAsBo5HQ6uud5hcKz1dVXe3v719c3NBhMM8YSiRhjzLJ+UUoR0T+Z3yBiNDoPAKbZBwDqf6ufnc/dr7vujC/9D73v/gW7jgQGV7BuqgAAAABJRU5ErkJggg==",
+    "url": "https://www.freecodecamp.org/news"
+  },
+  {
+    "type": "link",
+    "addDate": 1706100861,
+    "title": "Angular ng-template, ng-container and ngTemplateOutlet: Guided Tour",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACYUlEQVQ4jX2TzUuUURSHn3Pv+85M5qhoRElJlGSUiSXaNrUIbCEUQ19/gFFrwWrRLNq0cBH9AW1qk5BU0CJoU1EbQwiTYFqI31OBaDo678c9LRxjqqm7Ovdyfg/nd+45UOEoGAX7x91Uyi0XSbkI4O2OlvS7miP15W+PwWbLYFKBJTMc7lKS/THB+UV0uyXxTIhGV5l40w0bvyVvBfMcPRRi+i2m3yGdKSIvbNrNAg6ZnifCB9yEwHOIRzv5NCagHkAWEmBH6vBaV4iJjLgltxTsvnHTOuckd30w9s1O6zlprcG2FpDMe2gD1k0JEMbI0hpxVIRAXYCXbvSrMmfszgt9kkw3euoCiSD8QRwpLL+EImx2VwA16IxFrBgrMStSezWjwew3jWbysmsgoyErirHiIVbQ2Sw42OymAQjQvCCCC1X8tNQMXJBvQ8MyPTSsuwYuiuenBReqRUSR2VLl5td3OHTaGKMxq1J9tkf9A3sk1dyk/sEmtjXvlYa+HkJWEWM0JP4OcBvwRkqAFLIQqQNEaq9f1nhuUdNX+kwSJZzPu8Zrl+Tr0xeiqlj4AjAC4mVKXlzKzwcby1p1ukdTp06YuePndG38oy7iqO5ol46xJ1Lfe1ILr16TSqZXKMIkaJmF1LRAUN+y31++9zAqjn92lhp80vz4MOnm7j+KGlr2+4qqajJXsqC/TeIUHd2Wwi2D63VUsY4Lv6JqkIRPAbDvParvHGPsxf9GmYVEV4YguiFwLI9SxOWSfvJuW9j3QMi6Shoobd1WnIPkFO2DH2jLjrKvrnyZ/gkoA/2V9C/hTxAA/cLPKhHKAAAAAElFTkSuQmCC",
+    "url": "https://blog.angular-university.io/angular-ng-template-ng-container-ngtemplateoutlet/"
+  },
+  {
+    "type": "link",
+    "addDate": 1706100968,
+    "title": "Introducing Angular v17. Last month marked the 13th anniversary… | by Minko Gechev | Angular Blog",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB60lEQVQ4jV2SPWtUQRSG33fu3I2aDzBBzKpRCFhoI/orLLSwEIygBFuxsbDxT4j/QEFiIcFOsTNiIQqGKNgJBjYiZDcxcXM/ds55Le7GDb4wzAzznDOneCgJAARQEAVBAAEQEkgAHB1Bd8e/mESEjHKAIOEGCMxGSCAgQM2KgVlI60mSXOW6hUwh7r9CAINISqBA2ofd/uKP+vUfkCR6rwZrN/a6740UAiSSgru7uxWD8u7q7vzK1sVPabN2ucurbnp7vvfy+M67xaruW0MGSiLl8i8bXmyO3Z4MM7l1B6mbWtNh9k4si8GvNXcXCakZCWIeMF5gsp9faxP4vdTZftYBeOr6GI6aJjyODTsHAnAhD15uxcvT2ZlJr1L/6eetJ99SaUdO5+0rraq0EClBYECzSziG/OY5uAZrP6P3oN291Z4cZ28darUhASAFyN3crajK5Y9WVK7/U5f29UVV75nL3EW5C5ALBEnrbKalFXlMavU5NbVw4fDcOCSJDAAYQcKdgUqGGNPySvXgIXCiwsQGZup4b+7+JZkzUlIIhHwUM7Ptnfrx8377and2offoTd0r3OwAIjaDDkWREAIA/94BkM2fFATf9w4gyYYe1QBKxjwC0MCYBQxhsDG3+aG5DCWWmgYkD5rdYH8BRFJ6FDZdk1UAAAAASUVORK5CYII=",
+    "url": "https://blog.angular.io/introducing-angular-v17-4d7033312e4b"
+  },
+  {
+    "type": "link",
+    "addDate": 1706181733,
+    "title": "Create a WhatsApp Web Interface Clone using HTML and CSS",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADqElEQVQ4jU3T3U9bBRzG8ed3zukpbdeWVigtsAmMwYKOjIHIhG0QJdsSMnDzZUqibEvGLtBdLCZcokbN4pUhmZtEM2PYoqK4ZJtGRBAYCQTQDRlg8IXBCn0hfYPSnp5zfl5ME56L7/MXfAiPRuBHLWj4tqa0oeCM022vJaOWe1cJQlHEh4pfGfANBD4L9TQNg0EgAAD/dyAQTE0f/36x8KncVkeO3SClAZs68HNgkfVknMiQhqQvnorOxC7PtbW1A5NxABDRwQLqpkyvdt/6rqJp9ytGk5F0Jn19bBhL3VcQjqxBLShhrMc0ySqK1pKsKuvemkr/jdxv0FGrEQAcvzLTWfVySVsipCYhS/LytU5Ev7oEjRnBcBjU/j4SVbVAPM4kUUqyO42B23933n+j+k3a89r3+49cODRkz0wDK7qQjEdp/HQtqndlgyw2SgZ9mFrb5NAHXRBlA6DpLMmkKyHGX1cfHJCK63e3erJkKbKhqmw2CAn/BtvNBhw/XENmm5NnF/5E/Ld5uhMLs+RyQ9WZYqoAU5ZJcu13nBMrzr/zUY34wPbcYh95yY6kOwdp/8yQHlxlk81G9kw3FXuc/KtjB0XSrLBrCTQmvHRMDWBETXcKDpk99yz58LKZaud6IekCchpPcelOD6VbzLBuhDEvW2nV6WGNGae8k3hxbZ4GdQvYLGRLxBqpgkx9BUe5Yb4HUtiPga978OPYLZyoLMCmouLzCS/SnlmE3twCh6bgrcxyzFtcsIbXWUomdK8kYbsFKuc9ZqGlLz/Bwo1uqjhYx3H345RKKSgvy+Hxm72UabVwXn0RZKPM2wQmNUFeKbwSG9hRnvF6ZGFJ67ndJ871j8PgyOCTL52gsrJ9rDNjenqaRkeGONn/A8bkEDYrM3VyuCXFHxoUNdOzq0XVRS2B2Ql0vf0uxZQUHTp3AfvytyOVSFA8vkEKg2e22bB4ZxS/DE2yVl7BkmuXtnJtrk0MTl9fznn6rKvw4JNVy0M/KYWNzULFsRfItTSL9HQ7jKII1e/Dvb2VWDNb2BCPptJbz8uRqeilhffqugjMAuiw6czNq73FNZ76lAKwL6juiD4UTFYrraRi2AhFeMhg1MNul2CULUJo1Nd3t/nD59Gxc3MLpmzTyeujF/OeyGi1eSwGnYFYQuf+0B9gUSSTJEP1raei84nL98+2toMnN0H/a9zCubRl8MCeI/mnHS5zHWTkTMSWkUxgWQkkB/3DoU8DXxwd2cr5XyP9tulNVjYuAAAAAElFTkSuQmCC",
+    "url": "https://www.codewithfaraz.com/content/114/create-a-whatsapp-web-interface-clone-using-html-and-css"
+  },
+  {
+    "type": "link",
+    "addDate": 1706181816,
+    "title": "Code with Faraz - Latest Front-End Components",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADqElEQVQ4jU3T3U9bBRzG8ed3zukpbdeWVigtsAmMwYKOjIHIhG0QJdsSMnDzZUqibEvGLtBdLCZcokbN4pUhmZtEM2PYoqK4ZJtGRBAYCQTQDRlg8IXBCn0hfYPSnp5zfl5ME56L7/MXfAiPRuBHLWj4tqa0oeCM022vJaOWe1cJQlHEh4pfGfANBD4L9TQNg0EgAAD/dyAQTE0f/36x8KncVkeO3SClAZs68HNgkfVknMiQhqQvnorOxC7PtbW1A5NxABDRwQLqpkyvdt/6rqJp9ytGk5F0Jn19bBhL3VcQjqxBLShhrMc0ySqK1pKsKuvemkr/jdxv0FGrEQAcvzLTWfVySVsipCYhS/LytU5Ev7oEjRnBcBjU/j4SVbVAPM4kUUqyO42B23933n+j+k3a89r3+49cODRkz0wDK7qQjEdp/HQtqndlgyw2SgZ9mFrb5NAHXRBlA6DpLMmkKyHGX1cfHJCK63e3erJkKbKhqmw2CAn/BtvNBhw/XENmm5NnF/5E/Ld5uhMLs+RyQ9WZYqoAU5ZJcu13nBMrzr/zUY34wPbcYh95yY6kOwdp/8yQHlxlk81G9kw3FXuc/KtjB0XSrLBrCTQmvHRMDWBETXcKDpk99yz58LKZaud6IekCchpPcelOD6VbzLBuhDEvW2nV6WGNGae8k3hxbZ4GdQvYLGRLxBqpgkx9BUe5Yb4HUtiPga978OPYLZyoLMCmouLzCS/SnlmE3twCh6bgrcxyzFtcsIbXWUomdK8kYbsFKuc9ZqGlLz/Bwo1uqjhYx3H345RKKSgvy+Hxm72UabVwXn0RZKPM2wQmNUFeKbwSG9hRnvF6ZGFJ67ndJ871j8PgyOCTL52gsrJ9rDNjenqaRkeGONn/A8bkEDYrM3VyuCXFHxoUNdOzq0XVRS2B2Ql0vf0uxZQUHTp3AfvytyOVSFA8vkEKg2e22bB4ZxS/DE2yVl7BkmuXtnJtrk0MTl9fznn6rKvw4JNVy0M/KYWNzULFsRfItTSL9HQ7jKII1e/Dvb2VWDNb2BCPptJbz8uRqeilhffqugjMAuiw6czNq73FNZ76lAKwL6juiD4UTFYrraRi2AhFeMhg1MNul2CULUJo1Nd3t/nD59Gxc3MLpmzTyeujF/OeyGi1eSwGnYFYQuf+0B9gUSSTJEP1raei84nL98+2toMnN0H/a9zCubRl8MCeI/mnHS5zHWTkTMSWkUxgWQkkB/3DoU8DXxwd2cr5XyP9tulNVjYuAAAAAElFTkSuQmCC",
+    "url": "https://www.codewithfaraz.com/components"
+  },
+  {
+    "type": "link",
+    "addDate": 1706181923,
+    "title": "Conversational AI solutions | LivePerson Developer Center",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC0UlEQVQ4jY2Ty2tdZRTF197fd869594+RPDBpWmrf4SvWgclCD4qDir+A41UaRyINVQzyKRoUh/QFCyC6FREUAqlk9RJSWvH/gNqe0YJBmPOOfc7397LQQTv0N9ksQeLtTebJdhHABAAuuVjL4N8Ham9nLW6K4Bb35wYjkbv9+Y/jj++f2PWE/8duLv4+CNxpBWIdwbj+Err1Z8KMRCMw9HZYhwX2OTH2qXJr31Gc+izeouACAA0Hzx8JBQHN4zcAXmvKPRc6hFIEgCCCooIT8mvQeVphRz09u/56ovtOgJAJUPtBdtV0GfbzKemCRiXgmT765VBZC9RVfV8FQW9cZM2CAJQuuW5F2MM59OUvwXFOXOGIuguaFey+M8AEKGnwPBucj8QFWaOL4cDPd4kX49KORNKPV1mQzLaIMqOp/RqsVpv4j9u9UuTm8OyuN5lHhoEXZRSUfb+IHrbfJow2nbiQlVq6BLWq9V6k2+hwAT7R9QIslrfbi8euzoqdbnr3azxNbbNt2qD8R0znDUXSUaPahsEBBOYrMBlBY4JjIBE2kZvdHOR7FjI5WhTQThFiP+N7IsLCXE133s+KL8JSpZBNFPnBSBqBK5AuQJFjSAAs4b5IkCDkDHw68KaE9ItH/1qMIoL1himRh9E+YupP12s1rdnc/uLcycl6PVkPFAGCWEUYG2+FuH4np0/moy/R5W3U+bhGMsb/Udz6whyCw4BcIqQxWQcR4XlzCuY+vGuzz8IALRLk6MhFt8VQZ7petIIGZeC5CABGSiwlwgVsCpEeuedgv2bcqn+QwkI49QceKjp+QvBq8NSc5vpfXbm7N5m+rBEVnC9zX6PxGH0yQiIAsDo0vaD1PUnZbr7RojyZBhKFOGaimyryJbCLodhiIh4Al0+M93JL8jaVj3zk5k6f3jkJRV9zVP7ucXqLgjP1j5XldV7bv7T8JP7N2c9/wCpQZE1RfitJwAAAABJRU5ErkJggg==",
+    "url": "https://developers.liveperson.com/"
+  },
+  {
+    "type": "link",
+    "addDate": 1706685477,
+    "title": "2024 Bootstrap Cheatsheet | SheCodes",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC+UlEQVQ4jX2Rz29UdRTFP/f73rzpmyn9kUJ/xLYqP1QKaDGKRhRiTNyw0qT/gTGGFRtdv8b/gIWJiQmJO9PowkBiI6nRCCzaICgtIi3tQCml7bTM78689+51AVY3eFZncc+595wrPAWrk335rv4PB4VMJrhzdlk+4NHTZndgIAB3vzv+SVz4ckYrMw/T0pUN3Tp/ozX32Zn/F9tjsRW/PnP/4sf2x7kTZqtnTVe/MatfMqv+YPHcp5//dxE8IQYiYJvfjwx3v/Tu9IM/r+/+ceJXPfzagDs4OiyZsCvVtmfFpTFJeeH98OQvU2aICOYAiB4bdfZkxyhd6r2/eMtOntrvOc/cjd8KsnK34CXrl81vTnuixdMAItjOBU8iuM0L+yb/mt16z7wgfe7IPm9g97ZU1tdt8Z7KVsnTnNeQvc+H6z173DE5vlgwELdTws2DfT9dXNt7e36brfBlOXchI7F2sGuwT25WX7HZtSFZXnZcnSn24sIRgPEI8f/Jz8O1zuJqpbuzy5O3j1Rl9FC/Zdo2hRTeORpK51uJXp9q2u/TVffCgZUBgJFZxJcIIcLOL5zqCI/6ue1UmC/nJMxnZW3lAIZP4DUollTuZQc1+ypceSTPwFfMTWA+kRkIlwuHw/aOtkw2zDI175mIE893YEqSGGmqGDFeu0ilVO4HiMzMRdG4APhs1y2uN61VNV9qkvHqkJSwpEzgagSuiiRV0mYFS7ZLAJGIuCiKDCCX2yqaadPEiZlYsxkzNDTM6OgorThFTUwRQZwFgawCzI6N/fuFyZ+PnWjGYc4sTVTNNE1VzVRVNVVVVTNTU03Vbt/ZdQhgYmJCHWCdw190V2rd49AeODEfES/IZt3SUsHNXL3mgiBw4pwnzmVE1D1YH/go1/Pt64D5AHvymRfj2LdSqbrkuxpqLfE8EAQRaDYapGqkaWJmqs1WR9jVU36jXmTaB0ga/rWyeG/OLdStt/cWSSkrUCOfz1MDoAY18H3fauTZ2Gi4eqvRAPgb47SD21QShugAAAAASUVORK5CYII=",
+    "url": "https://cheatsheets.shecodes.io/bootstrap"
+  },
+  {
+    "type": "link",
+    "addDate": 1706783119,
+    "title": "Object-Oriented Programming in JavaScript for Beginners",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACF0lEQVQ4jZWSv0sbYRjH3/c5j0jIhQiSX0ehIRUu9HKkDgkUUoRiF8GhFKSBDMFaUuogQvCfEPcIcSo0i0IXR7dOGTwhN1QxJeelR66NZwdLcrl7nw6XBkE6+EwP3+/n4YHv89BgME0eUvAgejKAiDw/EwgEpioi3oVmZwM8z/siIKIghGq1D4qS8TzmE9Ho/JTwPJbNSrVaVRBCiAiU0kplbTx2VVXjuMnCarW8vv6WUkoI4ThQVc1xxpXKGqUUZFlSlEyj8Xk0cnx6bi6yvPxie/u9JD1hjBFCRqPxwUFTUTKyLEGxmNe0c8saAFBCCGNsZeVlNptJJmO53FPX9QghANSyBpp2XiwWQBTjut4jBH06nX68tfXu6qqnqlo8Hk2lHv0LAHW9J4ox8JdOIgPY2CgtLKR2d+uqqm1uVnZ2PnIcNwUYY2CalijGCaGIGA4LS0vPT06+Hh0dh0LBRCK6uJj1wyGEimLcNC1otc5kWYpEBETiuu5gYB8eHtv2Tb3+qdFoXl52h8MhISQSEWRZarXOONv28vlcMhk/PW07jnN7+8cwTMMwu13DMH602986nS6ltFx+EwjwzeYXjtLwxcX3Uul1v//TMMxOR7ft367rAsBo5HQ6uud5hcKz1dVXe3v719c3NBhMM8YSiRhjzLJ+UUoR0T+Z3yBiNDoPAKbZBwDqf6ufnc/dr7vujC/9D73v/gW7jgQGV7BuqgAAAABJRU5ErkJggg==",
+    "url": "https://www.freecodecamp.org/news/object-oriented-javascript-for-beginners/"
+  },
+  {
+    "type": "link",
+    "addDate": 1706857342,
+    "title": "RTCInboundRtpStreamStats: bytesReceived property - Web APIs | MDN",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACM0lEQVQ4jU2S30tUQRTHz5m5P+e6udAGrWjha/WWtGLZklIumwjVQ/W3BELQfyO95gqBmvkrfDFRelgtie3B8Mr+uPdy78yd08O4m/Mw8IXvfM+Zcz54ozRCRIg4uAEAEQEAAK5KY7CMHrg554iotdZaI6JlcQDM83xgsExGPwzb7Y6UUgjf8zytdbvdJiIhhOM4xsmD4Jp5gIh5LhcW5ufn60mctFotz/PevH09/ehhGIbn5+eWZQP0KyBimmblkZsfPrz3fN+2ra2dL5XKg8XFd1EUnf09Ozr6IYQvJVkmnjEWRb2ZmSfN5nGr9YdbHADqz2tbm9tSSc454uWnGfSPJpqbe7q9vZMkCWMcAKvV6tr6GuecIQMgAgQAZvrJsmykXJ6YuL/caIjAT+J4bHR8fPz2ysrnIBCa9GDUrN9PPDU1mWXZ3t7eUDDU7fZqtWfHzZOTk6bn+VrToJF+BZnW67Xd3W9KpZZtMc5nZ2dWV9eJFGfM7NPMnwGAlLI4XKxMVpY/LQNAHMW3xkbv3rvTaKwg2koprQkREAgAGOe814seV6dLpdLGxiaALaV8+erFRXixv//ddXzf9x3b0bqPQiAKWufF4vDXjc2Dg0PHcTudzq+fp0tLH09PfzuOHYbh4eFRt9vjnAMAlq6XETFJEqVUoVAgoCRO0jR1XVcIQURR1HNs13Ev0UBDK2MMEfM8N0NjjBHpPNcAwDknIsMiEf2n1SzSUKiUQkQjtdZXif4H9y5AmuLgRAoAAAAASUVORK5CYII=",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/RTCInboundRtpStreamStats/bytesReceived"
+  },
+  {
+    "type": "link",
+    "addDate": 1707109039,
+    "title": "angular-university/ngrx-course: NgRx (with NgRx Data) -The Complete Guide",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACpklEQVQ4jW2SwWucVRTFf/e975uZtCElk9RIwabGaZO0FMFNK9SFexHElQu7EN0oCt0ILQquxIUiWK1Y/QcERXFbUaqrCorFWDuJTBJLGqKNHYua5Jv37nGRCR2CZ3Uf3HcP53evsS0DBDDZmnk4xvLZAI8K7gWZYauOfeWePlxauHaFAdlAXU7NHH/D4HkLoYGEJAGYmWGGXBuSznfaP50FfGdAgFY5NdP4pCjKx9wdtv8NzL/7DjGQUu/TzvW5p4AcAU1NH3irVqudTil9mZVfMWw8mO13+aqga2al0JWc8lmkPbVa/fGR0fH67fXfL9mh1uzJWBSXY1HG1Ks+6LTnXgCKI0cenKiqv9YBcr3evNFu3wKqqenjbxdl+WLOva3Uy6eKEONzFkJNnjFIQATy/PzVlQE+N/t5oqHk7tEs7AnBnwlmPIIkd21s9tJ7QO43DwLeqXOidwHPfyPJzE4FYQcMM9AfK53ri/1GHyC3Q1EAy+32b4KbZmDY/QEwIQmGm83W0C7n3bKJiYmGYEQyk1EEM5aRCGbN4bHyRN+p+J8IBaD6vrGTweweSTJYCmT/lhAA+6csio8mDx+eZRvm7gjpYOvosTLG8wAWzCR9Y5Ot2YeKovjepXeC2X0hxifc8+ee/bXF+Z+vAhxsHT1WlsXLkp4MZnuBJMlzzifC8q+//CD5+0WML1VV9brn9CZi+N+tdOeufbVpcDqY7ZXYCDEWwt9dWrj2YwBCJ2+dkfvleqP+scu/k/u5teX2zka4kdKKS2sAMcahnNIXnbR1DggDoA41HpgeuRiK8LRnZ33zzmh3aakL0Gy1RkaLoa5ZyO75Yqc9dwao6F9dn3I33V5f+2zf+P6vTbq1mqtLdLsJYOPPJqNjZT0nvbq4MHdh4Nj4D+UDSXCdrYd5AAAAAElFTkSuQmCC",
+    "url": "https://github.com/angular-university/ngrx-course"
+  },
+  {
+    "type": "link",
+    "addDate": 1707128385,
+    "title": "CrudCrud - Instant CRUD REST API Endpoints",
+    "url": "https://crudcrud.com/"
+  },
+  {
+    "type": "link",
+    "addDate": 1707729559,
+    "title": "Bootstrap 5 Cheat Sheet - All Classes List with Descriptions 2024",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABV0lEQVQ4jWNkqHzNQApgIkk1AwMDCwMDAwcLg6owM6bc44//Pvz4j0XDn38M84J5TGRY0eSyN32ZduIHFif9+ccQvfLzpx//0OQMJJgh9mPxw623/2JWff77D8UB3hpszIwMdgqs9ooITcwMtmVQPW/+vfzyz1udjZGRESLCy850+eWf3Xd+T/fn0RJnfvD+7/vv/xEaGBgYzj79++77f3c1VrgeHXHm6Sd+/Pz7P9aQI0SHzUGJFUUDAwPDqSd/7r//66XOxsLEyMDAIMrNxMDwf9qJn1ZyLGI8zCJcTFjiYfH5X85zPj79+BfCrXbgCtRmK9/x9dWXfyh+QAaPP/5beP6nLD+TjjgzExNjgBbbzTd/+45815NgYcSfNJyUWNrduc1kWf///7/+2q/6Pd8IaIAAe0WWJGMOX002AQ5GojRAADMjg64EMwmJ7+9/hgvP/5KcWgF9T3ihV4g6ggAAAABJRU5ErkJggg==",
+    "url": "https://bootstrapcreative.com/resources/bootstrap-5-cheat-sheet-classes-index/"
+  },
+  {
+    "type": "link",
+    "addDate": 1707886259,
+    "title": "JabberJet",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADT0lEQVQ4jV2TTWhcVRiG3+/cc+69Se7MJE3SxPxYwU0bNVK6qAZJMnVTFzXE0EAt+FdFsLiwin8bo4jxD4slUKQVMRtppaWlgoilTchUjThKKVS01ZSQ2BjSyWSmM3Pn3nPO52JEUp/VBy98m/d9CDUIAAPAYOaR+6QQzwBIA9Rei3kJwHlt7ZGpB07+gHXQf9f5Qfmg3/KuINqvfNePwxjaaBAAx5FQvkIcxiHDTpy9OPc6ns3GtQdjEIMDT7iOXzruJd1duhhzMbppPOE6KTcJZqAQF1C1kUmowJFJRdFa9fSqO7c7uy2rJcZgRebm+17K26XzUVQ0ZblzY1ru6RrhDr8NDIuFyhK+WDgpz93I2LoCx27KG0qt3vEeKHuA0t+PbJcQMwIkiqZMj3eOir3dI/z5/DG6WpoDA+hN9mBP1zCfWDxDh+cnbSDr2bC12lT7pGB6UtUrlS/kdbq1XzzWPcqvXn6b8vEa/ihdAxFheuU7XMjN0uF7P+Cr5Tn6ZnnKNiWbFJf5aUFE/TrSLIQUj3YM0yfXJqnDb8OnWw+i1dsAT7jo9Nvxc/4Sji2coqH2h0gIR+hIswAGBBhdOtaUkglq8TZwNn8Rli1Kuox8XEBkIxRNCXWOj5/yv2Cj18IpmSCtNTGoU9TKrM3AsEFCBTjz97e4XPwdL975HBIywN2JzUipJDRbEGhd94Ag8KKUktfiIs9XFqm/+X7ENsL4lY/R7Dbhs62HMNE7jp2tO9Cb3ILl6grl4yIrKZnAi9IC074rN5fLZbMQXqcm1YiKDWkpXMb+S69ge+M2JGQABuOtLS/zG799CGZrHdeRWptpaSwfjcL4qUA1iE11XdwoE+LQPe8ws6VM7kesRDfQ4bdh36a9PDl/nGZyszbpBhRV4tgKfYQAYCAz/FFjc+qFNzteirQ18tfiFdFdfxvfXtcFhxwshks4ff1rmsnN2sCp0zLluuFaePBc34kDhDGInt09srNw15cNjcHDudWcLUUl6wrlBCqAQw4KcRFgmEA1ODKpqLoWncq7f45mv8qadTJBDnrD466jnlee6+lqDGMMGAzpSDieRBxGIYMnzlZWXkN6St9q47/smB7qE0rtu1Vn/MWwU8by0f/r/A/Rt4rbsrTSHgAAAABJRU5ErkJggg==",
+    "url": "http://localhost:4200/cc/b958e8b1-bbf7-489a-b65e-69c7939c7e23/roles/e2b223f5-dc90-45ff-84c6-11a5fa0d3c97/edit"
+  },
+  {
+    "type": "link",
+    "addDate": 1707892819,
+    "title": "Understanding JSON and JSON5: A Beginner&#39;s Guide to JSON and JSON5 for Web Development",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABVUlEQVQ4jWNUmPOOgRTARJJqBgYGFmROrTlXgjY7mor9j3+n7P6CXYMYFyMTI4YbGFGEUDQIczIxMDBMu/hj5qWfcME///7j1CDKycjAwPD4879Pv/4R5QcRTiYGBgZpHqYNfnyawsxvv/9bdevXlAvf/yBpR4QSKxMDPzsjAwNDjgGHFA/T9z//JbmZ8g05Wq25kQ1lhMcDCxODtyKbuhDzlTd/t93/xcLE0GLFFa7O/p+BwWHVp0ef/6I76c8/ho13fzHcRXAnnv8Rrs7OyMCgI8KMRYOyALOvEhsDA8P8qz8+/vzPwMDACgvj30gBhdDw9x9DniEHIwODKCdj68nvrEwMVWacDAwMP/4ynHn5B4uGB5/+Lrr2M16LPUqDPVKdnYGRAWJ+56nv739gs4GBgaHxxLcb7/5Ga7CrCjL/+89w9e2fWZd/7H74G3soEQlITq0AHstzEzR0B40AAAAASUVORK5CYII=",
+    "url": "https://json-5.com/json-vs-json5"
+  },
+  {
+    "type": "link",
+    "addDate": 1707892831,
+    "title": "Online JavaScript Compiler (Editor)",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABs0lEQVQ4jbWTv2tTURTHP/e++2yiTVKNEaqoHcShawsWXYJCwMEx4mT/AZcKLp0iVhdx0VL6A0cRmkncSgVFhzqLUJBaf+BgDX19JYYk7753HNriS5NXXPyO93zPl+/5nnMhEaIEURVEJ3N6YBFxuqQQlcQ3+x9+nOHsTEruahiMYDOwzKnP6tWeK1AS53fZ87/xpW2YDsHNaMquYXn6nNyfQNL7mwESrQE8HA5v9wd6MmXI162sKKtu3FpXX+NOegQkKvWodsXMbr258/Fl1dS8yxuNoNbvqjFlGAEox/pMvBGU8MS72MyYZaKIqxfGbr73/JL1tjNB4TQDWS0AVao9Q1SAcLQve+JTyOhivX1q1ZlyOY7gs/br+/Pc78LKDvV61EtAAK5NNcPCeiTpFo7FIaD+zkHfe8rQEo1ObkcGld1Ah1YtR1pWbeZd5Q3qyQXeFuc5ucQBt7AnqgHGcz9Ll0q+pB9vt1hrngcoIl33kjjCswc5bN6NaLVxXzSzAfAawiSBv2us7Ixgc8ZBa41OHQqOHZZ47WAHld1gHMdH+IAmQNxGR+2fURRDuftT/Rf8AZqQm+O35/HuAAAAAElFTkSuQmCC",
+    "url": "https://www.programiz.com/javascript/online-compiler/"
+  },
+  {
+    "type": "link",
+    "addDate": 1707892838,
+    "title": "Instantly parse JSON in any language | quicktype",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC+ElEQVQ4jU2TXYiUZRiGr+d932++2ZnZXVfdNGO0VaolKVJYs3DCwxqqg02IjoQQJeugNaSfkzzqh1CLMiqUfuis6OfE7CQWCgskqDCCki12jVpmB8ednW9mvu/93qeDMdz79H6u5+i+hEEEUADefnU3QQ8i7AWqg1bnEfMtRk9z6LnvVjPC/5mZGeKWjScwPI5zBbyHMPiJEYgiyHxG0DP0/j3CkZNdAAsIx46VqI5+SqX0mMm8sUFzAbHGEABRIMvyyBin5dIUebSDXbUvmJ31BlDG4+MMl+t0kjSkqfqk7fK0j+8mkKWMD5X4sr7PRcaoLjVTRobrjMfHAbW89dI9WPcm3itZZu+rTpgnd+7WUhRLfeutcrHZkBd37ZH9k3ewqVyRf9K+/N1sBLFuJ/XaOYfIYQrOkXT9xuFRc+6hR/VKvycHJu/Eq3Lmt1+o3VhlJUsZKcTqVYWggSHn6LonHMK9Ng+aZ6l58OZtYoCJj07xyf3TbBkeYfnKEl/NzxEZw77PPhbiGFxkNPOKmL0GZDN5LqAydcMmnVtukXY7pCFnMUlAYfva9SwmCS4uYqKCAjJgqBoUgioYy1gcs9TrQghsH1vPn+0WADeVKswtt/DdzrWxXF+CgbBgnFNC0FavJ5Nr1vHw7Xdx29haLl1tgTFsKFUYi4tMVbcSGyOoKtYqMG9QZtUawdrwwe8XtRg5PbrjbpLM0+x3AeXdX3+ivmUbHz4wrYgoqoHICarnhddfniI25xERfCajhdisK1f0x+n98sjXn/PNX3+AjRivVDSEIM1eN2CMIgLe1wxPP3+BEE5TKlrrnL+60g4TlRFZUyxyOVlRrFVxVhsrbWl2OwHBUy5ZvH+Hp1743gBCo/8M7c7ZUC4XJIqklab+jZ8v6EKnDWJRVcRaL9YJ5XKBdnKWtHEUkOsynZgZorjhNYw9iJWIJAEXDU6MgHPgfUqu73NpcYaTA5lktZoAnHplD0YOWKjlQTdf6xdQZjHyHoef/WE18x9PNE2hSCNuMwAAAABJRU5ErkJggg==",
+    "url": "https://app.quicktype.io/"
+  },
+  {
+    "type": "link",
+    "addDate": 1708333059,
+    "title": "Speaker Deck | Easily Share Your Presentations Online",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACF0lEQVQ4ja2TvU8UYRDGf+/s3u7eochHRCKJFCYWQA5NjBbaKJ1/AIXGxEKxsUGiUG6CimdlUEOisbJcYmhtbaQzYC4mGkNBjIFERNTD2933HYsjhxgrdKr5ysw8M8/AP4ppaqqGJJGd4QSGE0scCyD09WnDnUCS2L8X2sUEBlDu3y5T8E5iHYivOOfhB99Y3XhOR3gaT47gbB1MgSha5ePoHDHOB5TpqQuE4RPCoIhsoXAO9u4Bm14E7eVg9y3WN0AbKOiqPIXxEcPd8X20tC/ie4dwbh7xvoAKGAiCOj83JxAZIgyHSeubWO3C2jJCSka/T9jWidP95K4Odopa+gbxChQ9w/L7T8QPNojjD8Q3ZgDL9ORh8KuosYgtCaWlZQr+a1qKIcgsYeEtgSySuwW6e98xc+8mcZyi6hrQ8gx1ijGCMU64+jjD2RFs/gpjHIJgEIwxWHsAv1Dh4Z1zmN8PtW00NnZtosqV66cwboAsGyTLBsENgpkjCnMsQ0Bje1r3MUZRdaiKIb4U0d0/ifhHybNas7oxhjQ9RntbD5/XziPBV1qLY9Q2W3DuOIYMlw34tPZ04nSU1pJHbrcppUAUwvcfL7CyQMBLorAT50AEavVnrE0sNdIfVc7gtIySogiiiiKUghUujyXMVE6Q61lcvo5KQBSu0DE/y/BOOu+ayjSf5U+pVnXraQxx7DX9fVX9L90BfgF4sNnFzvEVowAAAABJRU5ErkJggg==",
+    "url": "https://speakerdeck.com/"
+  },
+  {
+    "type": "link",
+    "addDate": 1708343212,
+    "title": "Google",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACIklEQVQ4jYWSS0iUURTHf/fe8RvHooE2VlT2FNqUGWmNEYUR9lhEEVJhUIsoXOQuap1Rq6KHNQt3LaPAIOxhlNTChUwLMU3NR1CklUzg6xvPd1ro2KhTHjjcA/e8/uf/hzmmqsUiEheRLhHxp/2TiDxQ1aK5+ZmFeSJSrwuYiMRVNZKuMxnFz51zu9T3GX/6iPGmRqS/F5WAUMEawuUVRI5UYjwPEWl2zlUYY8YMgIjUW2vPBkPfSV6uYbKvJ+uW3rZSojfuABAEQdw5d96oajHQqr7P8IUqpL8X43lEjp3EK4mBtfgt75l4+4po7U3cytWZPbcyjUlTidv642ipDu7foX7bh2zgs92jDhHpUlWdbNmuEw15OvqweqE7ZjboCAEFADrSjs1LkRM7NAt3+bWRebfYudFx9XguwFqbwePs9z/mT/6NLdAHMBpex28W0/C1Y1Zy05VFM75nUwiAZVGT/v5sgdcA3UurOPUrxvXOFhJD7fOmdn4LeNc5NbpkfWimv5mWZ8KXFKdfXqInOYBnc6gsPEjZ8mKssbQOtvEkMczYl0oK8z3un4lgppbYkhZS3Fp7bnD0Jxeba+lODmTFviFcxq29NeRHDUEQ1DnnqtNSjohIo3Nutx+keNz9gmf9zfQkB0ChYMkK9q2KcaLwMJFQGFV9Y4w5YIwZzyBBI2lRLcD9PVXN/SdFqlokInUi0iEiE9P+UUTuqurmufl/AKTzsFGmvUNUAAAAAElFTkSuQmCC",
+    "url": "https://www.google.com/webhp?authuser=1"
+  },
+  {
+    "type": "link",
+    "addDate": 1709037141,
+    "title": "Angular 16 Signals Explained With Five Examples | by Kambiz Z | Medium",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABk0lEQVQ4jaWTsYoiQRCGv+7emUFBmER8BF/AAwNfwFARFBTBSJjAVDQQzIwW7kEMRjAwMxBMDQ18ABMzA2HsrQscG9275WS3oGn4q/7qv6v/BngHEsACH4D8Z32ktVfgXaUg6a54LVytfuisjDH3ZhhjnhjGmDt2JwsgKpWkvqlA9ANJ9ft94jhmuVwyHA7JZrOO0Ww2GQwGAPi+r9KcQiklQRDIfD6Xz7HdbiWTyUipVHJYq9WSTqcj4/FYAHkTERqNBvV6nSRJUOom6Hq9Ui6XiaKIfD6PiGCtpd1uczweCcMQgDeAarWKtdYNSymFUgprLbVajfP57HLFYvFpyBrA8zx38mMopTDGoLV+wkTcY90arFYrtNZOprWWJEnQWrNYLNjtdi53OBw4nU5cLhfXUXzflziO/xrifr+XMAylUqk4rNvtSq/Xk8lkcvfPzRBBEMhoNJL1ei2bzUZms5kUCgVn4SiKZDqdiud5EgSB5HK514z0+c7/MhJfWfmR/IWV+amVMUAI/HpU/QJZ0i/9+w8yEPFCQJmzEwAAAABJRU5ErkJggg==",
+    "url": "https://medium.com/@KkambizZ/angular-16-signals-explained-with-five-examples-6b773a12c974"
+  },
+  {
+    "type": "link",
+    "addDate": 1709042340,
+    "title": "typicode/json-server: Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcUlEQVQ4jY3TvWpVURAF4LXvvUmuIkEsLLQKgiAW/qAkNvoUFraCDxMlqEUCghZaiyKCjU3wBewEBTUpFEvBGJEkfjZz8HAw4sCG2XvNmv+dJEFLCS7hAT5gGz9Kv4/F7CeYwUoROvlVp5NtLGPUJ44wh+f+Xx5XwFHn5E4BL3EN69jCBj6W/qqwF2W73JGX8BO7WK23CY5jWucYZgu7XbbfcW6S5EaS2apoF+Mke621T70WfUYrbDfJOMnBJNeDd9WobZzs9aU/mdbdsYBvxXmdqg82MbPvmP44G+NtOfg6StKSSHIoyYF+5L+QW5JpkvniTUZJNgs/kmSxtaaaOCxh0lqTZCnJ0Qq6EdyrdLaqjFP/yOA03mCvyl4LztflLp6U/hRnBsSHvX7t1OjPdgZrBVzArVqohZ6DE4N1hpXhKq/jPa7i4iD1Kb70nDwrzmho9KhndLiHzVefdrDabeVwPJ1+GTcx7b3N1S+8MuT8Bs9NR9kw0z0NAAAAAElFTkSuQmCC",
+    "url": "https://github.com/typicode/json-server"
+  },
+  {
+    "type": "link",
+    "addDate": 1709286699,
+    "title": "Build these 5 Projects to Get Better at Nextjs | by Mohit Vaswani | Jan, 2024 | Medium",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABk0lEQVQ4jaWTsYoiQRCGv+7emUFBmER8BF/AAwNfwFARFBTBSJjAVDQQzIwW7kEMRjAwMxBMDQ18ABMzA2HsrQscG9275WS3oGn4q/7qv6v/BngHEsACH4D8Z32ktVfgXaUg6a54LVytfuisjDH3ZhhjnhjGmDt2JwsgKpWkvqlA9ANJ9ft94jhmuVwyHA7JZrOO0Ww2GQwGAPi+r9KcQiklQRDIfD6Xz7HdbiWTyUipVHJYq9WSTqcj4/FYAHkTERqNBvV6nSRJUOom6Hq9Ui6XiaKIfD6PiGCtpd1uczweCcMQgDeAarWKtdYNSymFUgprLbVajfP57HLFYvFpyBrA8zx38mMopTDGoLV+wkTcY90arFYrtNZOprWWJEnQWrNYLNjtdi53OBw4nU5cLhfXUXzflziO/xrifr+XMAylUqk4rNvtSq/Xk8lkcvfPzRBBEMhoNJL1ei2bzUZms5kUCgVn4SiKZDqdiud5EgSB5HK514z0+c7/MhJfWfmR/IWV+amVMUAI/HpU/QJZ0i/9+w8yEPFCQJmzEwAAAABJRU5ErkJggg==",
+    "url": "https://medium.com/@mohit-vaswani/build-these-5-projects-to-get-better-at-nextjs-498a2b76fde2"
+  },
+  {
+    "type": "link",
+    "addDate": 1709727497,
+    "title": "Angular 17 Encrypting Decrypting Data with CryptoJs | Angular 17 Tutorial | React - DEV Community",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACMklEQVQ4jZWSv09TURTHz7nvB7wX2w6gTDJISCQ0Qd9rhzJodWokkaSmdQD/AcrUvwQDCyaYyE6NRE20HZoUaEs7tYTaQmlSgoPVqukPWt579zg8Ak108U73fs/nDuecDzqcLvifwwYfRPRPaDC//sAYQ0REHORs9CokIpFzzjk3TdMwDFVVLcsiIkTgnGRZBgDTNEXxEpMkiT0Ph+OfP2Uz6ZcrK6Io6h7944f3mXR6b29X07RX6+uRSKTTaY+Njb2Nbc3NPWF3p6Y8Hs9xtbq8HIlGo/4HD/1+/9Hxcb1ebzS+jY/ffrG4QJxr2v1AIND80WQIcFgqhUOhrVhM1zVJlguFQjgUehYMfimV3m1vT05Ojt685fP5arVadn+fAYAsy4wxy7Qs0+p2u9PT07lc3v/oMQDkc3lFUbxe76xvtlAs/v7183JKnHMiIiCG2O/3T0/r5+ddUZKKBwfVk5PI0tLExJ14PA4AIhEZhgEAqqoKojCsKJXKUTAYBACH09VsNjPpzOLiQqfTyaSzTJAYMrw3M5NKpebnnyaTyV6vp+taKpXa2dl1u93ErXgiDgDlcqVcKSvKsDAyMoqIRPR6Y2N1da3VarlcLkDs9XqJRKLxvXF29lUQhDebm6XDwyFZxqFh5eLCIG4B0A2H0zCMfr9vb1VRVXtlnXZblCRFUYgIHU4XQwREu3XbDiJCRHsSiMgYIyK7KgIAJwKiK3lsc66Es9FrlwatHDTv78S+/wF72SshkV+RyAAAAABJRU5ErkJggg==",
+    "url": "https://dev.to/anilsingh/angular-17-encrypting-decrypting-data-with-cryptojs-angular-17-tutorial-react-30mh"
+  },
+  {
+    "type": "link",
+    "addDate": 1710140264,
+    "title": "Growth.Design — Better Products, Better Growth.",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADYklEQVQ4jTXTy2tcVQCA8e/cc2fOnbnzuJNkJpkkjabmYRNNbKJYQ6211SySTWt9dFMIIorYCuJChKpIKerSrTuhiIL4IIoJonZRqxYT09Sm0VRomkcreU/uZB73cVxIP/j9CZ8ASKVSQxpOe77fE7ftOFoLy7LQQHeT5tSxHMJUrG6HuuwZpXyD82eI+f6xk998KZRSQ8qyRlUsZkgpqVQqoDXSNFHRKEMPSgbuS/PFTy7LKwG+5xHqkFK1ogtu6RlZn89/nEilWhLJJLFYDDuRwJCScrlEqDWDfQnOja4T+CZxFaW64xI1DNCI7WK5U7x94rCbjCu76mvcssfiepGV7TIzC2v03BWCB+5OnDAMWV9bxxAC3/cJARmJBmZzbTLeWJsmYhoIIbjTZxfnyNWt8935TWodA7dQIPB9lKV496XjDPS0c278F2mOX74pOhpr2NeRZ6fiMbu8STYVww8CpBRsbG5iqwiGgBPDB3jh6OOk7Rie7zNwfxtmRy5BJh6lWPEplj2SSuKWq1gSmrKK5sYYgRfw5sgwESlQ0mDmn3mmr98AYWK05BzqHRvCENXQwaeXFknt2oMIA3bcKEefbOHlpw5RCQWhcsAwqMnl+eryCtrZhSFNSdpWpBIW9cFtzj7bz25zjRorQtpW1IgmrGiEbGs3NwoBJU+jtMfZ54fZUyMwF1a3cUseuaSFYUrq0jZaQ0EXeeJgG9NTIaKo2d+s2N/cDkC1KrBjguuuxLxwbYmunj4mZm9RKZfIJSJsFFw+eKOVhvoU1qPwyefLHAr2YkqDra1tKuUKviGpeD7SVNY7bQ014p72Lhw7wtc/X6G7w+DpwVaMiCKRsnmgP8/kxAZowbeTi1yd/Zcri6u05lOIvs4Wd6ng2YZh4HtVnjtcx3uv9qLsBEbUwojGEJEYk7/fxNxsojaZZO6veXp72/lo7PvAHHmsa3rm1tYjW6Uq+Yxk990aMxpFSBMhIyAj6DAgpkqMTvxAa7aHbDrB+am/aUrVX5WD/Z23A/TxklsUY38sMfbrCj9eWmHf3jzZbJq5hSInT4/z1oeTXJsvM/zQvRzobccypRZe9RR3ds6k0xczmYybcZww4zj6zOsH9crUa/qVkQGdcZz/ZTKh4zju4MM9v5158cgRgP8A9vBRqtEeiJgAAAAASUVORK5CYII=",
+    "url": "https://growth.design/"
+  },
+  {
+    "type": "link",
+    "addDate": 1710495770,
+    "title": "rx-stomp with Angular - StompJS Family",
+    "url": "https://stomp-js.github.io/guide/rx-stomp/rx-stomp-with-angular.html"
+  },
+  {
+    "type": "link",
+    "addDate": 1710767839,
+    "title": "JabberJet",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADN0lEQVQ4jUXHzWtcVRgH4N/5uHdmkkwSaBITq9UiqQhFKS2oASu1YhWxC0UhBVsEPxb+AyIiWYmCGytFS5biSiQimvqBKQUF3USL2tpF0tpY0zaZTJK599x7znnf87pQ8Nk9CgBEoJSCAIA7NzZVxfxEUo1HE7JdxAYx6WVJeiHU8eO7n77wPf6lAIj6L+jMYzBrjb+nbXbMmDx33sJTjigWgIHRGps9DpHk1Gax8fqhF67UAKAEUBvzaOvm2JnhweZUZ9tKkoxjMoZiQCQgRCWEAaaUmUau9fpG+Hqkf/HoJ8+BtAJE5aPvDw81pjpbJrAYUNI2JY3G6GEM7DqGod3TivVw5soCN7ocTGaOLN3ce3IGSGpzYcdhY5vfUsqZktWRrU6iJXJTjT/wEartyzCNUWyvnZeVi3Nqs/NX8mRTCGSY3SENNF7KsgzEFpysErESyagQagS3Cm3biH4L45PPqh13PilFsa1qD/goKJx6xTKyh523YNGaklHEGpEErfEjWFv+HCwZ+kfvh+lega+ccjUgmnVREiKngzYlM8bJKhaDhEy876n+nc9g54G3wbHA+a9ehmndQGf1EpYvfoeEPqlcVIUj5QON6AQrLBqcDCJpEBsQCxJ7MNUwfbfjrgOvYmLPU9joXEMdgLImuJpQVgRLYq5DmVuJtESGjqmBtT/PIRv8FNvdq7j822foG96Lv6/+iqKoEaVPuTomV0VICjetiFnIbPZ8kRSHSArZLWrPg++iNbQbIyIwrTvASfDQ0bfQ6XZk8ccvQamZfCDLFL/RTHK6qBBZrKkqh/F7XsTg2L3IGm3kzUFM7ptGd/0aVpZ+kubAbcpVUcqS4Crv+/JwWgHA73P75m2WP7G+6bk98YhptCcRKYEI4KTkws/zWLq0qDzb1CuIvPc5pH5ndq58zQJAiOqHPFePE1te+WPeOFdLWSc4xygcIXADUZpUlLWJMeYUw5nj+8s3Zueg7dmzsGEVj3V7ouoghqQfyfQr0YxkCGIJVR3gfbAhxtLq+uSH+3tvqhkQANih6/dNkzYHt3oxhQBde0blk7iKUbqIuiYS9mtM4YuJ4eqDmdnyl1P43z+0FAN7+j5NoQAAAABJRU5ErkJggg==",
+    "url": "https://dev.jabberjet.com/login"
+  },
+  {
+    "type": "link",
+    "addDate": 1711543173,
+    "title": "Free NgRx Course",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADN0lEQVQ4jV2TzWtcZRTGn/O+7/2cj4yEIbYkGxmT1Cq2xX4olhCLSgkWUQTxa+Oi4B/gwoVkIyji0mXFhVCI0BQrSFsiSiMY46pppJlkSjKYmzRtJjNzP+beufe+x0VJkTy7B57ncOCcH6anpwUOaO2f5rOrtxufry3fW9ra2F7a/nfniwebD04czDGzoH2zUd94Kk3TKUHqgtb6Jcex3ThJ4BactFgqGlEU9UjQYp5l15SjrlWr1RUAoJXlxsuuaX0WJ8lkqViyc50jDEMQKCdB2nLMVEllgSBd14VSCr7fTWzHmU/C+CslQafdQuF8nCTsB34KhjAtk9I0FVrnXK4MIM8yEfdiHUURg6EZbAyUyufu93qLihn1VquVgSDAkCSJNpub+PnyL6TTXBw5Pm6MPT9Ko0efRr+fEsAkSPBuq5ULEnepcadxUgO3mNmybZvvLq/Qd19/z45yiUBIswyGIzF5YYJfe+scac2amQURaUl6SviZ7wGcKKk4yzK+dX0ekhWUUhCmYLNgcNiJcPnbH3Fjdg62axMRMYAkgfTU4OBgK+7021LJchgEvOPtQJCAM2DjnYtva4bur9fXnbAbYf7mHzg18QJXh6oUx3EslfbE8PBwAtCWlBJCSpaGRBAEGDs2imeOjfP4c2P83sV34ZRstB+2kecaUkoiYDcMQ18QkQbpbQKhWCzymcnT3M8Sri+t4ubVOUgpcP3qDVy59BNXnqhwuVzSRAQGtmq1Wl89eiPylGHobrfDL06cofqdVSzMLaLZaMo/f/vL8tY95FlOJ84eJ8u1QERaEHlExI8GaLRt2xKdNidSSfnRJx/QoZEn+fbCErzmligPlvHGh1N4/c1XOc/y1B6wHd/vdgCAAGBtee0Vy3Z/UFIeCvwAIKS2Y6soiLRhq75lWbZbcLKk11duwSUAe0EUfXx4ZGhWAEDtaO3X3fs7J5Mk+UYZKiyVSkYURiSVzF3X1VJKkqQMIYVOkvhSZ6996vDI0OzjDZh5/7bw1r0jaT/7NNf6fUHCsFwzN01TCCmukDK+rFQKfx/s7KNJMzMzct8373lnm43N3/cethfiMD7/f4SZ+THF/wHlbpejJi4RVAAAAABJRU5ErkJggg==",
+    "url": "https://ngrx-course.com/"
+  },
+  {
+    "type": "link",
+    "addDate": 1711695741,
+    "title": "DeoDap",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACOklEQVQ4ja1Tv2tTYRQ9934vTdJETdL4XpLamqT0NW1BQeiiIA7ODkVBRMFBUPQfEDdXNzfBIjgI+he4OYhVSodarcTGGFLBmjYxphj74+W97zq0KbE04uCBu5x7vo/LPecSuoME4H14IUDvinaqLRR0NP8F1IWTpmlangqf3RRRBCEidqG15xdj6eBq8U1bbNi2PcGMSRH5JkJzi4XCKwKwwaErQeKbCrquBQ4LwsJ8pIcRXU1kn65VSleHgS1mlnEmvqVY3fcZ6mVuZOQ6ACxUmg9ml4s2eXInwmpu3XMmpeWN/9L6fVypizEzc7pzbGN0NDs8lhv5PJbLLadSqd52YyWRmWmkhqQStkwAqCYzU9JvSzWRPoOO5bn5fOmTaPeuMlSyLxS6DAD5eNYOM084Wh4lmiur9Wj0UA/x+ZrnzsYr5WkBiDsWxy1Nz1quW4JStwEgZsg5PzOta29q3jqacQLR1wysrXnOJQJae11gAHrctq+hx/fQ3dy68LHu3IDfOAHHewLGECDzqH65R8CPrjam0+lAIBhY9AF9o64uKsDPglaZMTftU28trWOWJ8V3hcJjAFB7M9BoNNxwPJIPM6e/A5gx6MNXQq3GrE+6+pQJGlhifvGzVit0DZcAgY1E+rkksiWJmscAQBDsFytTEDNTEPSmtjmQsc8HUo5EAmHm4wZxsuEPDgBYKPdFDwSJksSE5uFYCNX1bgNsoxrP2m2vdzNhDWZXrMHs31/+L8g+57zD/eHcb2Lg2Nk+ld/sAAAAAElFTkSuQmCC",
+    "url": "https://deodap.in/"
+  },
+  {
+    "type": "link",
+    "addDate": 1712203066,
+    "title": "nuacemaiglobal / waba-ui — Bitbucket",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB5ElEQVQ4jZ2TuW5TURCGv5lz7mJjg1klCFUKGhANHRItywOkgpqKF0CiCB3iJegocEVHhejooYiS4LAUUQoXEYmdxPeeGQrfC0YgFDHF0ZHmn/+fVfjNXDiWiR8Pdxyq9nPpoXf1BOW+Y4PB38G7u3CyROqSo+1VmQLE1tlb5gXOvU7iEFAckYbem+f8ORKBInfeA3cbAlcQw5lJRt8TPWSemYPjTZYKbk6IgtXMGmpRVuaAVPMBx3AqDJMMtEC0BMlBwEUkiQKJNQBW0MhVnCGosOUJdUdFEZ/x0uArgFu6XE/27ltducYMq20dgCEeWZ2XWNWMIlQCIhliFa8+PZHXABcebd/JzB9Ue2Nw8SThS9s7bWe6P2UkMHYlIOBwswUVRX5Dy57EsquSxcl0cGqjGaL9nML4ueydeeab4lzE8RC4tvR47ezkYCeFUF43M5eskBCybwcfl3bauNh2E8RxPkvklh2SgNud7pXNPC67z2Z97Chp0Q94vck7qRdKmHcTwGrWgeRQgYPoQGM8rVFFYqwkL5MJW42o/iIYNrsS2ZKcqAUd7UjUHAkdldDrxtgddLJeGVXCqBGVhRLEACbO2953ngKlgtnCGrvNsBqo9E0juuj+f/vzfFc8/DNiiC2e8w+VTb76jvSylgAAAABJRU5ErkJggg==",
+    "url": "https://bitbucket.org/nuacemaiglobal/waba-ui/branch/feature/WABA-1-ui-development"
+  },
+  {
+    "type": "link",
+    "addDate": 1713182856,
+    "title": "FreeTestAPI - Simplifying API Testing with Over 50 fake APIs",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC0ElEQVQ4jWWTz2tcdRTFz7nv+33zJsmYwkSTpkJjQ1FIdSOuarAtgVYXLoQurWCptH+B/gX++AsaDfUfKLhwKVkIIa4sUqKLokJIO0UzUzDNvLy8ee/d42KiVnKX93IOl3vPhwAAiAAFALduPV5OjNflWJaqBQAg4zYNG43rzu3b8xvPaoijunr1l6m5F2Y+l/RRkiSxrktIrrGBMYQWmqapAK792R98fPfu0hAACIgfvvtgavLFE9+krc7K4eETJ+ESTALHBtA/vSzr2qjcX88f/fXe19++PDSAap+c/CxtdVaKol9WlTgcetI0/23XNGCee1JVzqLol2naWZmY73wKULx5s3c+mH3vXrGuxdnZwCvvTGv9uz3r9SqAwNxswJW3T/j6+lM+elgpRoqMqsvRBQuJ3TALwQwqCvGtC1MgxIc7lWI0xWDq9WqVpfPixQ6KwklCZiGELL1hkpabZiSSBgo0YGenZDlqmCSgJWBVOX//7ZCEcHQTa5qRJC0Heb0AANJ4PjmRoFdWksiiaKCxBlUFtScSWAK4g1IDCAt25Ig8b3DpUgfzpyJ+2Mxx7lyG9691ce2DLpaW2rj34wG6MwkuX34Oee7g0YkDLWwTeCnLat2/f8DX32jj7Cspf31QIs+fAgCeDGqcWUx5kLt+ulcgyygyEMS2kdwwiwwBvrtbY9CvsXgm03Do6vddu7uuYS7NnYwaDGr0Ho8QI90skuSG1YejNfe6lsAQTCEYzCi5GCOYpqC7mKamtGUIwSSB7nVdN75mq3dOb8J9td3uJiGo2to6wKuvZVw8m6kspdFIOr2Q6vybk/x5q0CSqGq3ZxI19Zerq6c2j0V5f3/g09PmVQUry3EaWy0qRvreXmOdTtdG5fDfKP8PptnnZ74gdUNKonsJwI+eaDS2QKsrwL76Y3fwyTMwHcc5JrzujmX3Mc5mcdsMG1VzHOe/AXOakLSvAXL0AAAAAElFTkSuQmCC",
+    "url": "https://freetestapi.com/"
+  },
+  {
+    "type": "link",
+    "addDate": 1713262734,
+    "title": "Migrating from Custom Lazy Loading components to defer block - justangular.com",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB6ElEQVQ4jbWRP2gUURDGv7d77BFOZS9wRpvYeJA/SAgeqQNygVRJYeE1adJEUEvBLp0EUgSbg3CVkMROLEK4SqxChIAWCSRXCCHqFZF9t2tu3d03MxZhQ9yLEAS/at587/vNwAD/SzIiTlrvXaizsrKN08reuK58Wfeufa2mvdjxqzv3gvUPI6fjfwWElfeTv+7vNCHJruLuWPFjYyv13n26scXMYySyuzkUNt8OJZM9AIviJeafU8y+YgqWFRY59RahODJmOWajEpaphGWpB8AcaKEOYPxjN7m+BgCH5e3hw/L2MACU7P41w+Y4ZkLMrHsAQh0t5ENIr6j90RgAcuwvEIcLADC6r+LE0EpChIguAZDxtZiOF1G0CgDtgdcFZU7mOPHnPg80CwBgOdZqQuQlJL0ARb4n1KmXDuaDM6dds+Mfrh17LsOrAcDMQSkISeoxi5fmcucbUNC2xdlI37e+P28AaGTPFiX0imzUzgenhR58XHSP6h4AyN2neZwEfWd7utC4A6PtsIxnEQC8HNTFF0eu9wfgooLiww0x1iMxOURSgJab0NbtNxPhk1r2by7bEEB1qeuCBCAbxARH+qDsflcgSkHJZUN7FDkPZrt2taXVTOubPT97pVBWLUznW5jO/1P4qvoNfUD8hgvcTHUAAAAASUVORK5CYII=",
+    "url": "https://justangular.com/blog/migrating-from-custom-lazy-loading-to-defer-block"
+  },
+  {
+    "type": "link",
+    "addDate": 1713768537,
+    "title": "Angular unit testing tutorial with examples - LogRocket Blog",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACZUlEQVQ4jVWTTWtVVxSGn7X3ybmfvakag7F+kEGkoojgQChtIVCEzhRtIaD9C07Ekc78Bf4D5w4UdNDiVFBEwVGp0tI2ATVOYo253nP2Xm8H59xE92gN9rvW3s/7Lrv64wNJAiCEABhmAdzIyhQF1KkGjBgDOWfMDDNDEoFPjiTchWcn1U6MRpVrUpXBhQRmBq3YzJoGZgaAS4QQyEm4iZXrS6xcW4IYSDmTc0YC5NsDw7QAMAB3qo+JH345wInTc5z6ZoHliwfIKTSDpPamIdF+odFjiLpK7FscsHz+MKsvKtb+TJz5+Qh7FgbkmoaPDASGTRkIWjCTcc3J5TmqrcTTe+s8ur3O5EPi69NfUk2cEG2bmZlRqC1cwqJhMTCaKyl7M/RHBS6j7BXsPdSfvvwz6IUBMsMkchLDXSXzB3t0+4Fvf1rAotHrR+YPDyiHgVQ5MYYdFwRYCzG7WLl8jCMn56mrRHcYKLrwcZI4fmovl66cwGWohSZaiMJwF51+5ODREZ6dmbKAABag02kCtHhsRGcQ8NxMbxpImEGMxvh9Yu2vD4RY8O/LTbbeJcYbib9/3yTGGV6vbjHZzNsgTaLYjmQwUi3+eLbBxtuah/dfsfurHqrEf28mfHdugfXVLVLllGWBu1oX2mC4i94g8vTXNd6t15y9vMj3F/YjnId3XnHrxnNGe0o6vYi7dlyYBsgNzA1cDHcVPL73mtn5giTx5Lc3DGeLJrGf2AhQNHJh2uEagvF2bczdm/+AifFmouwEhGHT2E6DZCZwQ+YEa/yV4IvZDqnOgOh2IzLDPbeLp3YXxP/cDTSz4BvfUQAAAABJRU5ErkJggg==",
+    "url": "https://blog.logrocket.com/angular-unit-testing-tutorial/"
+  },
+  {
+    "type": "link",
+    "addDate": 1713847817,
+    "title": "W3Schools How TO - Code snippets for HTML, CSS and JavaScript",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABwklEQVQ4jcXSPUjVURzG8c/5/+81UDOpQRsKisSKJFCaHIyCJomIEBoqAlF7oaGl1YjaeoEwRQUjm5KGFGx0aihza5SowKSCwLe8eb2eBvWSOTX5wBl+fJ/z4+E8h61W+O8bnZ2J6ulTEvsJuaCvtaoIt/2ed3FwAXRdLVeyVFZkc9tn3Xy4KAp62xqFpEOMCxkx84hQTwxy2RGdnbdUzGRlFx+ImeMoIFWeeya6K4i6MpOyhUrCRCLEYeJu1AjxkurpY0p/NeE8anAQNWJs03+lDpSW5EjvCc6lmhs+CqEOh1Eq2CWEJhxCRB6pYAcKzh4Zkw/XhHgS+dVH7Os4IcaXhMq1yJBiSjAouo5yfBdXTlvOfJZZPmA5M5mCC/um5MpqcRTJ2oEBuewdaawX1KIMqWTlhfbeT0bH51eNLUNLVlZ68OOvwr5I9LvxeFbQjbnV4sMZSdK4bkqK9p0/32GoOEfPtfZ8ANnFMTGMrpEK4t7NC1qGCiR9mMakNBkosstPc2spZgjvpSWv11G64ZcNj38z0VBFeKut+9UG1lz/VUj2EEe0PnmzOQEEUVK4L5/2+FftvXn5cFu6NLSJban+AMNZjbJxF5QkAAAAAElFTkSuQmCC",
+    "url": "https://www.w3schools.com/howto/default.asp"
+  },
+  {
+    "type": "link",
+    "addDate": 1714019059,
+    "title": "cliveharber/gettingMean-2: Official Repository for the Manning Book Getting MEAN with MongoDB, Express, Angular and Node, 2nd Edition.",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACpklEQVQ4jW2SwWucVRTFf/e975uZtCElk9RIwabGaZO0FMFNK9SFexHElQu7EN0oCt0ILQquxIUiWK1Y/QcERXFbUaqrCorFWDuJTBJLGqKNHYua5Jv37nGRCR2CZ3Uf3HcP53evsS0DBDDZmnk4xvLZAI8K7gWZYauOfeWePlxauHaFAdlAXU7NHH/D4HkLoYGEJAGYmWGGXBuSznfaP50FfGdAgFY5NdP4pCjKx9wdtv8NzL/7DjGQUu/TzvW5p4AcAU1NH3irVqudTil9mZVfMWw8mO13+aqga2al0JWc8lmkPbVa/fGR0fH67fXfL9mh1uzJWBSXY1HG1Ks+6LTnXgCKI0cenKiqv9YBcr3evNFu3wKqqenjbxdl+WLOva3Uy6eKEONzFkJNnjFIQATy/PzVlQE+N/t5oqHk7tEs7AnBnwlmPIIkd21s9tJ7QO43DwLeqXOidwHPfyPJzE4FYQcMM9AfK53ri/1GHyC3Q1EAy+32b4KbZmDY/QEwIQmGm83W0C7n3bKJiYmGYEQyk1EEM5aRCGbN4bHyRN+p+J8IBaD6vrGTweweSTJYCmT/lhAA+6csio8mDx+eZRvm7gjpYOvosTLG8wAWzCR9Y5Ot2YeKovjepXeC2X0hxifc8+ee/bXF+Z+vAhxsHT1WlsXLkp4MZnuBJMlzzifC8q+//CD5+0WML1VV9brn9CZi+N+tdOeufbVpcDqY7ZXYCDEWwt9dWrj2YwBCJ2+dkfvleqP+scu/k/u5teX2zka4kdKKS2sAMcahnNIXnbR1DggDoA41HpgeuRiK8LRnZ33zzmh3aakL0Gy1RkaLoa5ZyO75Yqc9dwao6F9dn3I33V5f+2zf+P6vTbq1mqtLdLsJYOPPJqNjZT0nvbq4MHdh4Nj4D+UDSXCdrYd5AAAAAElFTkSuQmCC",
+    "url": "https://github.com/cliveharber/gettingMean-2"
+  },
+  {
+    "type": "folder",
+    "addDate": 1701494684,
+    "lastModified": 1701494704,
+    "title": "Bookmarks Bar",
+    "children": [
+      {
+        "type": "link",
+        "addDate": 1701494704,
+        "title": "Gmail",
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACEUlEQVQ4jcWSP0iVYRTGf+d9v/d6/ZelXBCSIHJIKbHCq1DkkIVubVK0NCSI0ODWdpcagigShDRoawhqygZz0BAxrU2I6ApCDsGnpl3Fe73f956GTDS4jfUsz/L84Twc+N8QgJmGhlqXsB3bxs1fzGbDvxn0Dan4kG3b2oxna7pZMxkwmrAjzpgx54uTn86c7Cxlzt2r74zKgklrZawiCEY0gzHpxkZn4sLpvCpWpLkyWTa2ejk9qBnMXmsGE17oGNSlmrHA0UweAo1bSOOC+ze+yLV3t+LWpXEi9WCk0ok8WJluS3+74m4DrEwXH7sEvd4bfOQxIozvNESvF68SADy/NMRi9hXdM3exPqLgE5SJ6c1HOy0AZdY25b2nAk9OHUNbLbzMHWOzMYspr0Wtxsw2X+dpzzMNq46GSTx57wmMaQqMacp7T9IIXzUZDqyf1xfbJwh2D9wlxUUFluvP8jD9qJ9iftiJoIACTgSJo+E7rcf7F6I6khLvDWv2r+w0ks9VjavVUwsDEdonsCGwEaF91VMfB7L1wWpCVPZ7DgQAlPuCBUhNzI/GQlcsdKUm5kcByiPsn/rgN4sYQFEf7zWk3s59OKD2XnAWRND4l9e0r1FUZM7jQ68+tNYWSj2SGFMg9iHqQ7zOZXvai0EmI/7cE71Z94MjAMtbrJcK2LTy/nAQnwIo5FLfkYwvpf13+AmqpdgP1oFy7QAAAABJRU5ErkJggg==",
+        "url": "https://accounts.google.com/b/0/AddMailService"
+      }
+    ]
+  }
+]
